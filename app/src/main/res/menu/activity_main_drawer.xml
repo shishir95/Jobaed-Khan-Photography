@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="@string/menu_album" />
+
+        <item
+            android:id="@+id/nav_story"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/menu_story" />
+
+
+        <item
+            android:id="@+id/nav_cinematography"
+            android:icon="@drawable/ic_videocam_black_24dp"
+            android:title="@string/menu_cinematography" />
+        <item
+            android:id="@+id/nav_packages"
+            android:icon="@drawable/ic_photo_album_black_24dp"
+            android:title="@string/menu_packages" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="@string/menu_gallery" />
+    </group>
+</menu>
